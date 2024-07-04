@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+</head>
+<body>
+    <style>
+        .type{
+            background: linear-gradient(-135deg, #c850c0, #4158d0);
+            border-radius: 15px,15px,0px,0px;
+            font-size: 35px;
+            text-align: center;
+            color: aliceblue;
+
+        }
+        body{
+            background-image: url('https://www.cisa.gov/sites/default/files/styles/hero_large/public/2023-01/stratplan_banner_1.png?h=0cb8e0f7&itok=jOQ4nJl7');
+            background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+        }
+        .wrapper{
+            margin: auto;
+            width: 500px;
+            background-color: azure;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            height:550px;
+        }
+        .wrapper .field{
+            position: relative;
+            display: flex;
+            box-sizing: border-box;
+            width: 99%;
+            height: 20px;
+            border: 1px solid silver;
+            margin: 20px 0px;
+            font-weight: bold;
+        }
+        .field input {
+            height: 100%;
+            width: 100%;
+            padding-left: 20px;
+            border-radius: 25px;
+            font-size: 17px;
+            border: 1px solid lightgray;
+        }
+        </style>
+        <div class="wrapper" style="display:grid">
+            <div class="type">Login Form</div>
+            <div class="header" ><img src="https://cdn.icon-icons.com/icons2/1465/PNG/512/384wavinghand2_100598.png" width="50px">Ready to be unstoppable
+            <u style="font-size: 30px;">Create an Account</u></div>
+            <div class="btn">
+            <button  border-radius="50%"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAURJREFUSEvF1L8rRXEYx/HXTWaEwSiZLIpVRgulKBaLzWLwa7QopURS/gRZ5FcW/wAlGWQiIykMKKX8OKdc3c69557bOW6+2znn+3zen+fp85ycKp9clfVVCujFIjp+DF1gDsdJBisBjGKTIjOfGMRBOUgSoB43aIgRuUMb3uIgSYDQ4U7CGPpwlBYwjeUEwBRW0wIGsJ8A6MdhWkAdrtEUI3CPdrykBYR1I9gqIRCmaAi7WVKUr+3B0s8efOASszj5iz1I0ij7PSmmmcTD4nKAZswEm9oVzLkTjRHaI85xihU8lHITBxgLBNeDfIcpquQ8YRx70culAJPBr2GtEtUSd4axXfg+CmjFFWpSAl4RavyOKwrYwERK8XzZfGBwIf8QBdyiJSPgDN1xgHfUZgQ8F4Yj2sFXRvEi4/+6aH/STNU7+AYkwS0ZwQsJ3gAAAABJRU5ErkJggg=="/>Candidate</button>
+            <button><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALNJREFUSEvVlc0Jg0AQhT/rsICINuHFsxfLydFDikkJglUo5J4+EgLZICvGN7tsiHtbGN43b36YjMQvS6yPCuiAHjjtJHQDzsDVxamACShFtzNQWQEPUXylqzr4KcAl5aD+/+Xik3iIg+QApR1RDqIALXABCkXlHWPqwR3IDeLLhi4nbbNE/mT4LHVc/wfwbdb9rQ0qUXLA8XtwXAfGXVuFb+7BCNSR6gPQWC9aMFO9B8GAJ5E6Khnaqr6yAAAAAElFTkSuQmCC"/>Company</button>
+            <button><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAK9JREFUSEvt1r0JAkEYhOHnQGxBEAQLMLAFQ8sQtQUDQcQ2DOzA3MwaDMQKBLvQ5JRjcTm9n0C8DZedeXeH+WATNa+kZn8hoI0FpugXgF+wwv6pDQE7TAoYZyVnDGKAGzpfAMIL3lPtaz924FNGA8hN6vcjGmGdvnODY9UtimVYWU0bQG5N/ziiMQ6FA8oIw1G/ooshTnUAtphXYBwdtBaWmKFXAhQFlPB8L639V/EAdB8hGVjj2J0AAAAASUVORK5CYII="/>College</button>
+            </div>
+            <form action="#">
+                <div class="field">
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Last Name " required>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="USer Name" required>
+                </div>
+                <div class="field">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="field">
+                    <input type="tel" placeholder="Phone No" required>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Enter Password" required>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+                <div class="#">
+                    <input type="checkbox">
+                    <label>I agree with all the terms and conditions and appling for the job</label>
+                </div>
+                <div class="type">
+                    <button >
+                    <a href="chessboard.html">Submit</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
